@@ -1,0 +1,124 @@
+ h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #768cad;
+  display:flex;
+  justify-content:center;
+}
+.StarfishPage {
+  background-color: #bec9d7;
+  max-width: 900px;
+  margin-bottom:30px;
+}
+
+/* Header Section */
+
+header {
+  position: relative;
+}
+
+header img {
+  width:100%;
+  height: 350px;
+  object-fit: fill;
+}
+header h1 {
+  position: absolute;
+  top: 64%;
+  left: 38%;
+  font-size: 36px;
+  color: #123558;
+}
+.topNavbar {
+  overflow: hidden;
+}
+.topNavbar ul{ 
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.story {
+   border-style: none solid;
+}
+.topNavbar ul li a {
+  padding:  14px 90px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #273960;
+}
+.starfishLife {
+   margin: 10px;
+}
+
+/* Article Section */
+article img {
+  width: 170px;
+  height: 170px;
+  float: left;
+  margin-right:15px;
+  margin-bottom: 15px;
+}
+article p {
+  margin: 5px;
+}
+main {
+  margin: 10px 0px;
+}
+main ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+ul {
+  padding: 12px 0px 12px;
+}
+
+/* Form Section */
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, textarea {
+  width: 99%;
+  margin-bottom: 12px;
+  background-color: #f2f6fb;
+}
+form button {
+  padding: 10px 20px;
+  background-image: linear-gradient(rgb(142, 184, 247), #05295f);
+  color: #fdfafa;
+  border: 1px solid #010d33;;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+span {
+  display: flex;
+  width: 120px;
+  margin-top: 8px;
+}
+
+span label {
+  margin-right: 10px;
+  padding: 6px 12px;
+}
+
+
+/* Footer Section */
+
+footer {
+  padding-top: 2%;
+  padding-bottom:2%;
+  text-align: right;
+}
